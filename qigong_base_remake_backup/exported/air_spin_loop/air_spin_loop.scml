@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="air_spin_loop">
+        <file id="0" name="air_spin_loop/air_spin_loop.png" width="72" height="71" pivot_x="0.554054" pivot_y="0.506849"/>
+    </folder>
+    <entity id="0" name="air_spin_loop">
+        <animation id="0" name="air_spin_loop" length="400">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="air_spin_loop" folder="0" file="0" abs_x="4" abs_y="0" abs_pivot_x="0.554054" abs_pivot_y="0.506849" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="400">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="air_spin_loop">
+                <key id="0">
+                    <object folder="0" file="0" x="4"/>
+                </key>
+                <key id="1" time="100">
+                    <object folder="0" file="0" x="4" angle="91.84761"/>
+                </key>
+                <key id="2" time="200">
+                    <object folder="0" file="0" x="4" angle="180.68206" scale_y="1"/>
+                </key>
+                <key id="3" time="400">
+                    <object folder="0" file="0" x="4" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
